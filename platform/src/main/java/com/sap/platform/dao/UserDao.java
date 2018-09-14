@@ -18,6 +18,7 @@ public class UserDao {
 		users.add( new User( 0, "user1", "abc" ) );
 		users.add( new User( 1, "user2", "def" ) );
 		users.add( new User( 2, "user3", "ghi" ) );
+		users.add( new User( 3, "user4", "jkl" ) );
 	}
 	
 	public List<User> getAllUsers() {
