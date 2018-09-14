@@ -1,22 +1,11 @@
 package com.sap.platform.model;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
-
-@Entity
-@Table(name="user")
 public class User {
 
-	@Id
-	@Column(name="id")
 	private int id;
 	
-	@Column(name="username")
 	private String userName;
 	
-	@Column(name="password")
 	private String password;
 
 	public User() {
